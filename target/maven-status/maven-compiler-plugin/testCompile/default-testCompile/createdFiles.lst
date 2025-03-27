@@ -1,0 +1,10 @@
+testcases\DragandDrop.class
+testcases\EntryAd.class
+testcases\ExitInternet.class
+testcases\Logintest.class
+testcases\FileDownload.class
+testcases\BasicAuth.class
+testcases\Dropdown.class
+testcases\Locators.class
+testcases\FloatingMenu.class
+testcases\DynamicContent.class
