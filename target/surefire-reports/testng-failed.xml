@@ -1,13 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="none" name="Failed suite [Suite]" verbose="0">
-  <test parallel="none" name="Test(failed)" preserve-order="true">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="testcases.Locators">
+      <class name="testcases.SlowResources">
         <methods>
-          <include name="main"/>
+          <include name="slowresources"/>
         </methods>
-      </class> <!-- testcases.Locators -->
+      </class> <!-- testcases.SlowResources -->
+      <class name="com.testNG.FirstTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="openApp"/>
+          <include name="register"/>
+        </methods>
+      </class> <!-- com.testNG.FirstTestCase -->
+      <class name="testcases.WYSEditor">
+        <methods>
+          <include name="editor"/>
+        </methods>
+      </class> <!-- testcases.WYSEditor -->
+      <class name="nopcommerce.Statictable">
+        <methods>
+          <include name="table"/>
+        </methods>
+      </class> <!-- nopcommerce.Statictable -->
+      <class name="testcases.DynamicContent">
+        <methods>
+          <include name="dynamicloading"/>
+        </methods>
+      </class> <!-- testcases.DynamicContent -->
+      <class name="nopcommerce.Day1">
+        <methods>
+          <include name="mainnopcommerce"/>
+        </methods>
+      </class> <!-- nopcommerce.Day1 -->
+      <class name="nopcommerce.DynamicPaginationTable">
+        <methods>
+          <include name="table"/>
+        </methods>
+      </class> <!-- nopcommerce.DynamicPaginationTable -->
+      <class name="demo.Practice">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- demo.Practice -->
+      <class name="testcases.NestedFrames">
+        <methods>
+          <include name="nestedframes"/>
+        </methods>
+      </class> <!-- testcases.NestedFrames -->
+      <class name="demo.signup">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- demo.signup -->
+      <class name="testcases.FileDownload">
+        <methods>
+          <include name="filedownload"/>
+        </methods>
+      </class> <!-- testcases.FileDownload -->
+      <class name="testcases.LargeandDeepDOM">
+        <methods>
+          <include name="dom"/>
+        </methods>
+      </class> <!-- testcases.LargeandDeepDOM -->
+      <class name="testcases.FormAuthentication">
+        <methods>
+          <include name="Formauthentication"/>
+        </methods>
+      </class> <!-- testcases.FormAuthentication -->
+      <class name="w3schools.Login">
+        <methods>
+          <include name="w3"/>
+        </methods>
+      </class> <!-- w3schools.Login -->
+      <class name="testcases.ShadowDOM">
+        <methods>
+          <include name="shadowDOM"/>
+        </methods>
+      </class> <!-- testcases.ShadowDOM -->
+      <class name="testcases.JQueryUIMenus">
+        <methods>
+          <include name="JqueryUIMinus"/>
+        </methods>
+      </class> <!-- testcases.JQueryUIMenus -->
+      <class name="DP.DataProvider">
+        <methods>
+          <include name="setup"/>
+          <include name="testlogin"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- DP.DataProvider -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -59,6 +59,9 @@ public class BasicAuth {
 			act.contextClick(button).perform();
 			 //Thread.sleep(2000);
 			 Robot robot = new Robot();
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getCurrentUrl());
+		System.out.println(driver.getPageSource());
 		
 	}
 

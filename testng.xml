@@ -3,28 +3,54 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testcases.NotificationMessages"/>
-      <class name="testcases.Inputs"/>
+      <class name="testcases.Shiftingcontent"/>
       <class name="testcases.JavaScriptOnloadEvent"/>
-      <class name="testcases.Dropdown"/>
+      <class name="testcases.Inputs"/>
+      <class name="w3schools.Login"/>
+      <class name="demo.Images"/>
+      <class name="DP.DataProvider"/>
       <class name="testcases.InfiniteScroll"/>
       <class name="testcases.NestedFrames"/>
-      <class name="testcases.FileDownload"/>
       <class name="testcases.FloatingMenu"/>
-      <class name="testcases.Keypresses"/>
+      <class name="demo.MyAccount"/>
       <class name="testcases.JavaScriptAlerts"/>
-      <class name="testcases.LargeandDeepDOM"/>
+      <class name="demo.HomepageArrivalsDescription"/>
       <class name="testcases.HorizontalSlider"/>
+      <class name="testcases.LargeandDeepDOM"/>
+      <class name="nopcommerce.Dropdowns"/>
+      <class name="testcases.StatusCodes"/>
+      <class name="demo.Login"/>
+      <class name="testcases.SecureFileDownload"/>
+      <class name="demo.Cart"/>
+      <class name="testcases.JQueryUIMenus"/>
+      <class name="w3schools.TestNG"/>
+      <class name="testcases.Frames"/>
+      <class name="com.testNG.FirstTestCase"/>
+      <class name="testcases.Locators"/>
+      <class name="testcases.FormAuthentication"/>
+      <class name="nopcommerce.Statictable"/>
+      <class name="testcases.WYSEditor"/>
+      <class name="testcases.NotificationMessages"/>
+      <class name="demo.Practice"/>
+      <class name="day47.Logintest"/>
+      <class name="testcases.Dropdown"/>
+    
+      <class name="testcases.FileDownload"/>
+      <class name="testcases.Typos"/>
+      <class name="nopcommerce.DynamicPaginationTable"/>
+      <class name="testcases.Keypresses"/>
+      <class name="demo.Alerts"/>
       <class name="testcases.GeoLocation"/>
+      <class name="demo.Products"/>
       <class name="testcases.DragandDrop"/>
       <class name="testcases.Hovers"/>
       <class name="testcases.ForgotPassword"/>
+      <class name="demo.signup"/>
       <class name="testcases.DynamicContent"/>
-      <class name="testcases.SecureFileDownload"/>
-      <class name="testcases.JQueryUIMenus"/>
-      <class name="testcases.Frames"/>
-      <class name="testcases.Locators"/>
-      <class name="testcases.FormAuthentication"/>
+      <class name="demo.Shoppingcart"/>
+      <class name="nopcommerce.Day1"/>
+      <class name="testcases.SlowResources"/>
+      <class name="testcases.ShadowDOM"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
