@@ -8,10 +8,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
+
 import java.time.Duration;
 
 public class Signup {
-    public static void main(String[] args) {
+	
+	@Test
+    public  void LOGIN() {
         WebDriver driver = new ChromeDriver(); // Your WebDriver setup here
 
         driver.get("https://demo.automationtesting.in/Register.html");
@@ -28,7 +32,7 @@ public class Signup {
         select.selectByVisibleText("Adobe Photoshop");
 
         // Optional: verify selection
-        String selected = select.getFirstSelectedOption().getText();
-        System.out.println("Selected option: " + selected);
+       // String selected = select.getFirstSelectedOption().getText();
+        //System.out.println("Selected option: " + selected);
     }
 }

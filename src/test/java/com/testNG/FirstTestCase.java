@@ -65,7 +65,7 @@ public class FirstTestCase {
     @Step("Fill the registration form")
     public void fillRegistrationForm() {
      //   driver.findElement(By.id("id_gender2")).click();
-        driver.findElement(By.id("password")).sendKeys("vani@123");
+        driver.findElement(By.id("//input[@id='firstpassword']")).sendKeys("vani@123");
 
         driver.findElement(By.xpath("//select[@id='days']/option[@value='4']")).click();
         driver.findElement(By.xpath("//select[@id='months']/option[normalize-space()='March']")).click();
@@ -84,5 +84,7 @@ public class FirstTestCase {
         driver.findElement(By.id("zipcode")).sendKeys("517502");
         driver.findElement(By.id("mobile_number")).sendKeys("1234567654");
         driver.findElement(By.xpath("//button[normalize-space()='Create Account']")).click();
+        
+        
     }
 }
